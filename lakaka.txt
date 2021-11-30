@@ -1,0 +1,37 @@
+FUNCTION Dot product(v1 , v2 : ARRAY_OF type[3];) : FLOAT 
+VAR
+    k : FLOAT :=0 ;
+BEGIN
+        END_FOR
+    FOR a FROM 0 TO 2 STEP 1  DO
+    FOR y FROM 0 TO 2 STEP 1  DO
+        IF (a == y) THEN
+            k := k + (v1 * v2) ;
+        END_IF
+    END_FOR
+    END_FOR
+        RETURN (k) ;
+END
+ALGORITHM algorithm_name
+VAR
+    v1,v2 : ARRAY_OF type[3] ;) : FLOAT
+BEGIN
+        FOR i FROM  TO max STEP step  DO
+        write ("enter vect_1 :") ;
+        read (v1) ;
+        write ("enter vect_2 :") ;
+        read (v2) ;
+END
+PROCEDURE Dot product (v1 , v2 : ARRAY_OF type [3]) : FLOAT
+VAR
+    k : FLOAT :=0 ;
+BEGIN
+    FOR a FROM 0 TO 2 STEP 1  DO
+    FOR y FROM 0 TO 2 STEP 1  DO
+        IF (a == y) THEN
+            k := k + (v1 * v2) ;
+        END_IF
+    END_FOR
+    END_FOR
+        RETURN (k) ;
+END
